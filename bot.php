@@ -8,7 +8,7 @@ if (isset($update->message)) {
     $from_id = $message->from->id;
 }
 
-const API_KEY = '7364555370:AAEbam1pT_msTdepVCGroRw5ZwMEM-rtm_E';
+const API_KEY = ''; # your bot token
 function TelegramRequest(string $method, array $data)
 {
     $ch = curl_init();
