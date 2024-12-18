@@ -6,6 +6,7 @@ if (isset($update->message)) {
     $message = $update->message;
     $text    = $message->text;
     $from_id = $message->from->id;
+    $chat_id = $message->chat->id;
 }
 
 const API_KEY = ''; # your bot token
